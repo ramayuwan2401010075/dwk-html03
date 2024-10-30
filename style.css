@@ -1,0 +1,58 @@
+/* Add styles here */
+body{
+    background-image:url("image/tidak_ada_merk_lukisan_pemandangan_sawah_pedesaan_style_modern_full01_jjqt4o7v.jpg");
+    background-repeat: no-repeat;
+    margin:0px;
+    font-family:'Courier New', Courier, monospace
+
+}
+.navbar{
+    padding: 0px;
+    background-color: aliceblue;
+    opacity: 50%;
+}
+.navbarmenu{
+    text-align: left;
+    padding: 5px;
+}
+.navbarmenulist{
+    list-style: none;
+}
+.navbarmenulist > li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.navbarmenulist > li >a{
+    text-decoration:none;
+    color: black;
+}
+.navbarmenulist > li > a:hover{
+    font-weight: bold;
+}
+.navbarjudul{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    text-shadow: 2px 2px 8px;
+}
+#txhello{
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+    left: 25px;
+}
+#btn1{
+    position: relative;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 18px;
+    top: 175px;
+    left: 20%
+}
+#btn1:hover{
+    color: rgb(50, 183, 92);
+    background-color:beige
+}
